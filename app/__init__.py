@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_smorest import Api
-from Config import Config
+from config import Config
 
 app = Flask(__name__)
 app.config.from_object(Config)
